@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\prtFile]
+@="Súbory protokolu"
+
+[HKEY_CLASSES_ROOT\prtFile\DefaultIcon]
+@="C:\SOC\project\WIMPS.exe,1"
+
+[HKEY_CLASSES_ROOT\prtFile\shell]
+@="open"
+[HKEY_CLASSES_ROOT\prtFile\shell\open]
+
+[HKEY_CLASSES_ROOT\prtFile\shell\open\Command]
+@="C:\SOC\project\WIMPS.exe" \"%1\""
